@@ -20,3 +20,14 @@ td {
     padding: 0;
     margin: 2px;
 }
+
+.menu {
+    padding: 5px;
+    margin: 2px;
+    display: inline-block
+}
+
+.bungkus {
+    max-width: 800px;
+    margin: 0 auto;
+}
