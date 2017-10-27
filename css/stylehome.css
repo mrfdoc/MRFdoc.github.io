@@ -3,7 +3,7 @@
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
-    background-image: url(regal.png);
+    background-image: url(../img/regal.png);
 }
 
 .container {
@@ -16,6 +16,7 @@ body {
     padding: 20px;
     padding-bottom: 10px;
 }
+
 
 ul li {
     list-style-type: none;
@@ -46,26 +47,24 @@ ul.submenu li {
     padding: 0px;
 }
 
-
-
-.header a {
-    text-decoration: none
-    color: salmon;
-    padding: 3px;
+.menu a{
+    text-decoration: none;
+    color: #628230;
+    padding: 10px;
 }
 
-.header a:hover {
+.menu a:hover {
     background-color: lightblue;
     color: white; 
 }
 
 .gambar {
     height: 200px;
-    background-image: url(Geologi.jpg);
+    background-image: url(../img/Geologi.jpg);
     background-size : cover;
     background-position: 0 -130px;
     border-top: 5px solid #A8E86E;
-    border-bottom: 5px solid #B5C866;
+    border-bottom: 5px solid #99AB4A;
 }
 
 .content {
