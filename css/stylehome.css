@@ -8,7 +8,7 @@ body {
 }
 
 .nav-main {
-    width: 100%;
+    width: 200%;
     background-color: #2e2e2e;
     height: 70px;
     color: whitesmoke;
@@ -27,10 +27,11 @@ body {
     padding: 0;
     float: left;
     list-style-type: none;
+    display: inline-block;
 }
 
 .nav-main > ul > ul {
-    float: right;
+    float: left;
 }
 
 .nav-item {
@@ -94,7 +95,7 @@ body {
     width: 800px;
     margin: auto;
     background-color: white;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .gambar {
