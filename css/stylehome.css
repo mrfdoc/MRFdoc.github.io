@@ -7,11 +7,17 @@ body {
     background-image: url(../img/regal.png);
 }
 
+/* start menu */
 .nav-main {
-    width: 200%;
+    width: 100%;
     background-color: #2e2e2e;
     height: 70px;
     color: whitesmoke;
+}
+
+.nav-main .logo a {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .nav-main .logo {
@@ -28,6 +34,7 @@ body {
     float: left;
     list-style-type: none;
     display: inline-block;
+    width: 10px;
 }
 
 .nav-main > ul > ul {
@@ -44,7 +51,7 @@ body {
 }
 
 .nav-item:hover {
-    background-color: lightblue;
+    background-color: grey;
 }
 
 .nav-content {
@@ -91,6 +98,8 @@ body {
     transition:max-height 0.4s ease-in;
 }
 
+/* end menu */
+
 .isi {
     width: 800px;
     margin: auto;
@@ -128,10 +137,16 @@ body {
     text-align: justify; 
 }
 
+ul li {
+    margin-bottom: 10px;
+    font-size: 14px;  
+    text-align: justify; 
+}
+
 .footer {
     background-color: #191818;
     padding: 1px;
     text-align: center;
     color: whitesmoke;
-    font-size: 10px;
+    font-size: 12px;
 }
