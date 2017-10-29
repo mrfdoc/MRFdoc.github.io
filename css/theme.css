@@ -1,5 +1,6 @@
 /* style */
 
+
 body {
     margin: 0;
     font: 16px/28px "Open Sans", sans-serif;
@@ -7,7 +8,7 @@ body {
     background-image: url(../img/regal.png);
 }
 
-.isi {
+.container .isi {
     width: 800px;
     margin: auto;
     background-color: white;
