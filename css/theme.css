@@ -1,0 +1,59 @@
+/* style */
+
+body {
+    margin: 0;
+    font: 16px/28px "Open Sans", sans-serif;
+    background-color: #eaeaea;
+    background-image: url(../img/regal.png);
+}
+
+.isi {
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    padding-top: 0px;
+}
+
+.gambar {
+    height: 200px;
+    background-image: url(../img/Geologi.jpg);
+    background-size : cover;
+    background-position: 0 -130px;
+    border-top: 5px solid #674B23;
+    border-bottom: 5px solid #323230;
+    margin: auto;
+}
+
+.content {
+    padding: 15px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content penulis {
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;  
+    text-align: justify; 
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 14px;  
+    text-align: justify; 
+}
+
+.footer {
+    background-color: #191818;
+    padding: 1px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
+}
