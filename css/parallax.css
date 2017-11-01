@@ -1,11 +1,11 @@
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Rozha One', serif;
 }
 
 h1 {
-    color: #cccccc;
-    font-weight: 300;
+    color: #6d6d6d;
+    font-weight: 300px;
 }
 
 figure {
@@ -14,9 +14,14 @@ figure {
 
 .content article {
     padding: 100 0px;
-    max-width: 640px;
+    max-width: 768px;
     margin: 0 auto;
     text-align: center;
+}
+
+.content p {
+    font-size: 18px;
+    font-family: 'Lora', serif;
 }
 
 img {
@@ -24,37 +29,68 @@ img {
 }
 
 
-
-
 /* Parallax */
 .latar {
     position: relative;
     background-repeat: no-repeat;
     height: 600px;
-    background-image: url(../img/fix.png);
+    width: 100%;
+    background-image: url(../img/background.jpg);
     background-size: auto 600px;
     background-position: top center;
     background-attachment: fixed;
     overflow: hidden;
 }
 
-.museum {
+.my-navbar {
+    border: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.75);
     width: 100%;
-    height: 600px;
-    background-image: url(../img/museumjadi.png);
-    background-position: center;
-    background-size: auto 600px;
-    background-repeat: no-repeat;
-    position: absolute;
+    position: fixed;
+    box-shadow: 10px;
 }
 
-.kota {
-    width: 100%;
-    height: 600px;
-    background-image: url(../img/kota.png);
-    background-position: center bottom;
+.navbar-right img {
+    padding: 5px;
+    padding-right: 100px;
+}
+
+a {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    padding: 10px;
+    padding-left: 100px;
+}
+
+.navbar-center {
+    padding-left: 180px;
+}
+
+/* Paralax */
+
+.back {
+    position: relative;
     background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/back.png);
     background-size: auto 600px;
-    position: absolute;
-    top: 600px;
+    background-position: top center;
+}
+
+.back h1 {
+    color: whitesmoke;
+}
+.back p {
+    color: whitesmoke;
+}
+.footer {
+    background-color: #191818;
+    padding: 1px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
 }

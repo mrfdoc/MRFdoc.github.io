@@ -1,5 +1,8 @@
 $(window).scroll(function() {
-    var wScroll = $(this).scrollTop();
-
-    console.log(wScroll);
+   if ($(document).scrollTop() > 50) {
+       $('nav').addClass('header');
+   }
+   else {
+       $('nav').removeClass('header');
+   }
 });
