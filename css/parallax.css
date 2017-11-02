@@ -39,14 +39,17 @@ img {
 }
 
 .latar h1 {
-    padding-left: 150px;
+    padding-left: 110px;
     padding-top: 250px;
-    font-size: 48px;
+    font-size: 56px;
+    text-shadow: 10px;
 }
 
 .latar h2 {
-    padding-left: 150px;
+    padding-left: 110px;
     color: rgb(157, 0, 209);
+    font-size: 36px;
+    text-shadow: 10px;
 }
 
 .my-navbar {
@@ -68,11 +71,15 @@ a {
 
 .navbar-brand {
     padding: 10px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .navbar-right {
-    padding-right: 100px;
+    padding-right: 50px;
+}
+
+.navbar-text {
+    padding-left: auto;
 }
 
 
@@ -96,6 +103,32 @@ a {
 }
 
 /* Model Grid Galeri*/
+.one-third img {
+    width: 33%;
+    display: inline-block;
+    padding: 3.5px;
+    float: left;
+    align-content: center;
+    padding-left: 10px;
+    padding-bottom: 7px;
+}
+
+.one-third img:hover {
+    opacity: .3;
+}
+
+.two-third img {
+    width: 33%;
+    display: inline-block;
+    padding: 3.5px;
+    float: left;
+    align-content: center;
+    padding-left: 10px;
+}
+
+.two-third img:hover {
+    opacity: .3;
+}
 
 
 .footer {
