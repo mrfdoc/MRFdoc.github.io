@@ -1,15 +1,11 @@
 
 body {
-    font-family: 'Rozha One', serif;
+    font-family:'Poppins', serif;
 }
 
 h1 {
-    color: #6d6d6d;
+    color: #b6b4b4;
     font-weight: 300px;
-}
-
-figure {
-    margin: auto;
 }
 
 .content article {
@@ -35,26 +31,36 @@ img {
     background-repeat: no-repeat;
     height: 600px;
     width: 100%;
-    background-image: url(../img/background.jpg);
+    background-image: url(../img/galeri/asli/fit.jpg);
     background-size: auto 600px;
     background-position: top center;
     background-attachment: fixed;
     overflow: hidden;
 }
 
+.latar h1 {
+    padding-left: 150px;
+    padding-top: 250px;
+    font-size: 48px;
+}
+
+.latar h2 {
+    padding-left: 150px;
+    color: rgb(157, 0, 209);
+}
+
 .my-navbar {
     border: 0;
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.8);
     width: 100%;
     position: fixed;
-    box-shadow: 10px;
 }
 
-.navbar-right img {
-    padding: 5px;
-    padding-right: 120px;
+.my-navbar a {
+    font-size: 14px;
 }
+
 
 a {
     font-size: 18px;
@@ -65,9 +71,10 @@ a {
     padding-left: 100px;
 }
 
-.navbar-center {
-    padding-left: 180px;
+.navbar-right {
+    padding-right: 100px;
 }
+
 
 /* Paralax */
 
@@ -87,6 +94,10 @@ a {
 .back p {
     color: whitesmoke;
 }
+
+/* Model Grid Galeri*/
+
+
 .footer {
     background-color: #191818;
     padding: 1px;
