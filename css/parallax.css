@@ -133,14 +133,6 @@ a {
     opacity: .7;
 }
 
-.footer {
-    background-color: #191818;
-    padding: 1px;
-    text-align: center;
-    color: whitesmoke;
-    font-size: 12px;
-}
-
 /* Kabaret */
 
 .kabaret h1 {
@@ -186,6 +178,35 @@ a {
     background-position: top center;
     background-attachment: fixed;
     overflow: hidden;
+}
+
+.end {
+    background-color: #191818;
+    height: 500px;
+}
+
+.end p {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 16px;
+    padding-top: 110px;
+    padding-left: 400px;
+    width: 800px;
+}
+
+.end img {
+    width: 25%;
+    padding-top: 75px;
+    padding-left: 75px;
+    float: left;
+}
+
+.footer {
+    background-color: #191818;
+    padding: 1px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
 }
 
 /* media screen */
