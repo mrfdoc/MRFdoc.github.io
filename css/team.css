@@ -1,0 +1,73 @@
+/* Font */
+body {
+    font-size: 12px;
+    font-family:'Poppins', serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 50px 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Lora', serif;
+}
+
+.team img {
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 600px;
+    background-color:grey;
+    margin: auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.team li {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #2e2e2e;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.team li img {
+    border-radius: 50%;
+
+}
+
+.team li span {
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(157, 0, 209, 0.479);
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    line-height: 120px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px #000000;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: .3s;
+}
+
+.team li a:hover span {
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+
+.clear {
+    clear: both;
+}
