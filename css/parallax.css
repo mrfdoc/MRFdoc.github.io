@@ -42,14 +42,14 @@ img {
     padding-left: 110px;
     padding-top: 250px;
     font-size: 56px;
-    text-shadow: 10px;
+    text-shadow: 3px 3px 3px #000;
 }
 
 .latar h2 {
     padding-left: 110px;
     color: rgb(157, 0, 209);
     font-size: 36px;
-    text-shadow: 10px;
+    text-shadow: 2px 2px 2px #000;
 }
 
 .my-navbar {
@@ -72,6 +72,7 @@ a {
 .navbar-brand {
     padding: 10px;
     padding-left: 50px;
+    width: 12.5%;
 }
 
 .navbar-right {
@@ -111,10 +112,11 @@ a {
     align-content: center;
     padding-left: 10px;
     padding-bottom: 7px;
+    position: relative;
 }
 
 .one-third img:hover {
-    opacity: .3;
+    opacity: .7;
 }
 
 .two-third img {
@@ -124,12 +126,12 @@ a {
     float: left;
     align-content: center;
     padding-left: 10px;
+    position: relative;
 }
 
 .two-third img:hover {
-    opacity: .3;
+    opacity: .7;
 }
-
 
 .footer {
     background-color: #191818;
@@ -137,4 +139,65 @@ a {
     text-align: center;
     color: whitesmoke;
     font-size: 12px;
+}
+
+/* Kabaret */
+
+.kabaret h1 {
+    padding: 100 0px;
+    max-width: 768px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+}
+
+.box img {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 25%;
+    float: center;
+}
+
+
+.box h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.box p {
+    font-size: 14px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* view */
+.view {
+    position: relative;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/galeri/asli/view.jpg);
+    background-size: auto 600px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+/* media screen */
+@media screen and (max-width: 768px) {
+    .latar img {
+        background-size: 250%;
+    }
+    .latar h1 {
+        font-size: 250%;
+        padding left: 0px;
+    }
+    .latar h2 {
+        font-size: 110%;
+    }
 }

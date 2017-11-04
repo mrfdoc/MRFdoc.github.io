@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="home">
 
 <head>
     <meta charset="UTF-8">
@@ -31,8 +31,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">
-                    <img src="img/fkb.png" alt="Forum Kabaret Bandung">
+                <a class="navbar-brand" href="#home">
+                    <img src="img/logofkb.png" alt="Forum Kabaret Bandung">
                 </a>
                 <p class="navbar-text">FORUM KABARET BANDUNG</p>
             </div>
@@ -41,10 +41,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#home" class="page-scroll">Home</a>
                     </li>
                     <li>
-                        <a href="#">Gallery</a>
+                        <a href="#gallery" class="page-scroll">Kabaret</a>
                     </li>
                     <li>
                         <a href="#">History</a>
@@ -68,7 +68,8 @@
         <article>
             <h1>KABARET BANDUNG</h1>
             <hr>
-            <p>Welcome to Forum Kabaret Bandung Website, a creative and innovative children's gathering community. Unite to go forward, work, develop and inspire Bandung City Society through modern stage performing arts.</p>
+            <p>Welcome to Forum Kabaret Bandung Website, a creative and innovative children's gathering community. Unite to
+                go forward, work, develop and inspire Bandung City Society through modern stage performing arts.</p>
         </article>
         <br>
         <br>
@@ -76,15 +77,17 @@
         <br>
         <br>
         <br>
+        <br>
+        <br>
         <header class="back">
-            <article>
+            <article id="gallery">
                 <br>
                 <br>
                 <br>
-                <h1>GALERI</h1>
+                <br>
+                <h1>KABARET</h1>
                 <hr>
-
-                <div id="wrapper">
+                <div class="gallery">
                     <!--Gallery1 Start-->
                     <section class="one-third">
                         <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/1.jpg" data-lightbox="example-set" data-titles="#">
@@ -105,7 +108,7 @@
                     <!--Gallery2 Start-->
                     <section class="two-third">
                         <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/4.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/4.jpg" alt="FActing" title="FActing">
+                            <img class="example-image" src="img/galeri/thumb/4.jpg" alt="FActing" title="Acting">
                         </a>
                     </section>
                     <section class="two-third">
@@ -115,23 +118,73 @@
                     </section>
                     <section class="two-third">
                         <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/6.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/6.jpg" alt="Traditional" title="Traditional">
+                            <img class="example-image" src="img/galeri/thumb/6.jpg" alt="Traditional" title="Traditional Dance">
                         </a>
                     </section>
                     <!--Gallery2 End-->
                 </div>
+
             </article>
         </header>
+        <br>
+        <div class="features-boxed">
+            <div class="container">
+                <div class="intro">
+                    <h1 class="text-center">WHAT IS A KABARET?</h1>
+                    <p class="text-center">Kabaret is a performing arts that is a blend of theater arts, dance art and artistic art that is very
+                        exist developed by young people in Bandung City.</p>
+                    <br>
+                    <br>
+                </div>
+                <div class="row features">
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box">
+                            <img src="img/mask.png" alt="">
+                            <h3 class="text-center">Acting</h3>
+                            <p class="text-justify description">Acting (role) is derived from the word "to act" which means "acting" acting in the sense he is
+                                a combination of body attraction and spiritual.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box">
+                            <a href="#">
+                                <img src="img/dance1.png" alt="">
+                            </a>
+                            <h3 class="text-center">Dance</h3>
+                            <p class="text-justify description">Dance is a human gesture that is completely separated from the elements of space, and time, and
+                                energy.</p>
 
-        <div style="height: 2000px"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 item">
+                        <div class="box">
+                            <img src="img/artistic.png" alt="">
+                            <h3 class="text-center">Artistic</h3>
+                            <p class="text-justify description">Artistic value is the value seen in terms of its beauty in the cabaret seen in the background
+                                aspect, costumes and make up of players who have a role.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="view"></div>
+        <div style="height: 800px"></div>
     </section>
 
     <div class="footer">Copyright 2017 MRFdoc.</div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/lightbox.js"></script>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
     <script src="js/function.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
