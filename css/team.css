@@ -6,8 +6,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 56px;
-    font-weight: 300px;
+    font-size: 40px;
     margin: 50px 0;
     color: #b6b4b4;
     font-weight: 300px;
@@ -18,16 +17,85 @@ p {
     font-family: 'Lora', serif;
 }
 
+
+/* Background */
+.background {
+    position: relative;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/galeri/asli/background.jpg);
+    background-size: auto 600px;
+    background-position: top center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.background h1 {
+    padding-left: 250px;
+    padding-top: 250px;
+    font-size: 56px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+/* navbar */
+
+.my-navbar {
+    border: 0;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    position: fixed;
+}
+
+.my-navbar a {
+    font-size: 14px;
+}
+
+a {
+    font-size: 18px;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.navbar-brand img {
+    float: left;
+    padding: 10px;
+    padding-left: 50px;
+    width: 10%;
+}
+
+.navbar-right {
+    padding-right: 50px;
+}
+
+.navbar-text {
+    padding-left: 9px;
+    font-family:'Poppins', serif;
+}
+
+/* Logo Member */
+.container {
+    width: 1050px;
+    margin: auto;
+    padding-left: 70px;
+    padding-bottom: 30px;
+}
+
+.container h1 {
+    text-align: center;
+    font-size: 36px;
+}
+.container p {
+    text-align: center;
+    font-size: 18px;
+}
+
 .team img {
     width: 100%;
     float: left;
-}
-
-.container {
-    width: 1000px;
-    margin: auto;
-    padding-left: 50px;
-    padding-bottom: 30px;
 }
 
 .team li {
@@ -49,14 +117,14 @@ p {
 
 .team li span {
     display: block;
-    width: 180px;
-    height: 180px;
+    width: 170px;
+    height: 170px;
     background-color: rgba(157, 0, 209, 0.479);
     border-radius: 50%;
     position: absolute;
     top: 0px;
     text-align: center;
-    line-height: 180px;
+    line-height: 170px;
     color: whitesmoke;
     text-shadow: 1px 1px 1px #000000;
     opacity: 0;
