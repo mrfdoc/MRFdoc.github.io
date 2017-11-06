@@ -32,7 +32,7 @@ p {
 }
 
 .background h1 {
-    padding-left: 250px;
+    padding-left: 450px;
     padding-top: 250px;
     font-size: 56px;
     text-shadow: 3px 3px 3px #000;
@@ -57,14 +57,17 @@ a {
 }
 
 .navbar-brand {
-    width: 200px;
+    width: 100px;
 }
 
-.navbar-brand img {
+.navbar-brand {
     float: left;
     padding: 10px;
     padding-left: 50px;
-    width: 10%;
+}
+
+.navbar-brand img {
+    width: 118%;
 }
 
 .navbar-right {
@@ -72,8 +75,10 @@ a {
 }
 
 .navbar-text {
-    padding-left: 9px;
+    padding-top: 2.5px;
+    padding-left: 7.2px;
     font-family:'Poppins', serif;
+    font-size: 14px;
 }
 
 /* Logo Member */
