@@ -96,6 +96,7 @@ a {
 .container p {
     text-align: center;
     font-size: 18px;
+    margin: auto;
 }
 
 .team img {
@@ -144,4 +145,35 @@ a {
 
 .clear {
     clear: both;
+}
+
+.end {
+    background-color: #191818;
+    height: 350px;
+}
+
+.end p {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 14px;
+    padding-top: 105px;
+    padding-left: 10px;
+    width: 450px;
+    float: left;
+}
+
+.end img {
+    width: 20%;
+    padding-top: 75px;
+    padding-left: 75px;
+    float: left;
+    padding-right: 20px;
+}
+
+.footer {
+    background-color: #191818;
+    padding: 1px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 12px;
 }

@@ -1,12 +1,20 @@
 $(window).scroll(function () {
     var wScroll = $(this).scrollTop();
 
-    $('.background').css({
+    $('.latar').css({
         'transform': 'translate(0px, -' + wScroll / 20 + '%)'
     });
     
-    $('.background h1').css({
+    $('.latar h1').css({
         'transform': 'translate(0px, -' + wScroll / 20 + '%)'
+    });
+    
+    $('.latar h2').css({
+        'transform': 'translate(0px, -' + wScroll + '%)'
+    });
+
+    $('.back').css({
+        'transform': 'translate(0px, -' + wScroll / 80 + '%)'
     });
 
 });
