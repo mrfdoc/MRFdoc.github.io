@@ -169,7 +169,7 @@ a {
 .view {
     position: relative;
     background-repeat: no-repeat;
-    height: 450px;
+    height: 400px;
     width: 100%;
     background-image: url(../img/galeri/asli/view.jpg);
     background-size: auto 600px;
@@ -201,7 +201,7 @@ a {
     padding-right: 20px;
 }
 
-.footer {
+.footer1 {
     background-color: #191818;
     padding: 1px;
     text-align: center;

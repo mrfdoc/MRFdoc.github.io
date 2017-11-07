@@ -15,6 +15,7 @@ h1 {
 p {
     font-size: 18px;
     font-family: 'Lora', serif;
+    line-height: 1.46;
 }
 
 
@@ -22,7 +23,7 @@ p {
 .background {
     position: relative;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url(../img/galeri/asli/background.jpg);
     background-size: auto 600px;
@@ -33,9 +34,9 @@ p {
 
 .background h1 {
     padding-left: 450px;
-    padding-top: 250px;
+    padding-top: 170px;
     font-size: 56px;
-    text-shadow: 3px 3px 3px #000;
+    text-shadow: 2px 2px 2px #000;
 }
 
 /* navbar */
@@ -156,7 +157,7 @@ a {
     color: whitesmoke;
     text-align: left;
     font-size: 14px;
-    padding-top: 105px;
+    padding-top: 102px;
     padding-left: 10px;
     width: 450px;
     float: left;
@@ -164,7 +165,7 @@ a {
 
 .end img {
     width: 20%;
-    padding-top: 75px;
+    padding-top: 72px;
     padding-left: 75px;
     float: left;
     padding-right: 20px;
@@ -172,8 +173,8 @@ a {
 
 .footer {
     background-color: #191818;
+    color: whitesmoke;
     padding: 1px;
     text-align: center;
-    color: whitesmoke;
     font-size: 12px;
 }

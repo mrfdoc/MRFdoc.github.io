@@ -6,7 +6,7 @@ $(window).scroll(function () {
     });
     
     $('.background h1').css({
-        'transform': 'translate(0px, -' + wScroll / 60 + '%)'
+        'transform': 'translate(0px, -' + wScroll / 150 + '%)'
     });
 
 });
