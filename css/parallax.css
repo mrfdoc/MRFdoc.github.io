@@ -83,54 +83,66 @@ a {
 }
 
 
-/* Paralax */
-
+/* Background Gedung Sate */
 .back {
     position: relative;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-image: url(../img/back.png);
-    background-size: auto 600px;
+    background-size: auto 800px;
     background-position: top center;
 }
 
-.back h1 {
+/* Gallery */
+.container.gallery-container {
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+}
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
     color: whitesmoke;
 }
-.back p {
-    color: whitesmoke;
+
+.tz-gallery {
+    padding: 10px;
+    width: 100%;
 }
 
-/* Model Grid Galeri*/
-.one-third img {
-    width: 33%;
-    display: inline-block;
-    padding: 3.5px;
-    float: left;
-    align-content: center;
-    padding-left: 10px;
-    padding-bottom: 7px;
-    position: relative;
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 
-.one-third img:hover {
-    opacity: .7;
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
 }
 
-.two-third img {
-    width: 33%;
-    display: inline-block;
-    padding: 3.5px;
-    float: left;
-    align-content: center;
-    padding-left: 10px;
-    position: relative;
+.tz-gallery img {
+    border-radius: 4px;
 }
 
-.two-third img:hover {
-    opacity: .7;
+.baguetteBox-button {
+    background-color: transparent !important;
 }
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+/* End Gallery */
 
 /* Kabaret */
 

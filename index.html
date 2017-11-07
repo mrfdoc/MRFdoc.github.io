@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Contrail+One|Crimson+Text|Rozha+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Contrail+One|Crimson+Text|Lora|Rozha+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <title>Forum Kabaret Bandung</title>
     <link rel="icon" href="img/logofkb.png">
 </head>
@@ -80,54 +81,47 @@
         <br>
         <br>
         <br>
-        <header class="back">
-            <article id="gallery">
-                <br>
-                <br>
-                <br>
-                <br>
-                <h1>KABARET</h1>
+        <header class="back" id="gallery">
+            <br>
+            <div class="container gallery-container">
+                <h1>KABARET SHOW</h1>
                 <hr>
-                <div class="gallery">
-                    <!--Gallery1 Start-->
-                    <section class="one-third">
-                        <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/1.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/1.jpg" alt="Costume" title="Costume">
-                        </a>
-                    </section>
-                    <section class="one-third">
-                        <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/2.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/2.jpg" alt="Dance" title="Dance">
-                        </a>
-                    </section>
-                    <section class="one-third">
-                        <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/3.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/3.jpg" alt="Jump" title="Jump">
-                        </a>
-                    </section>
-                    <!--Gallery1 End-->
-                    <!--Gallery2 Start-->
-                    <section class="two-third">
-                        <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/4.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/4.jpg" alt="FActing" title="Acting">
-                        </a>
-                    </section>
-                    <section class="two-third">
-                        <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/5.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/5.jpg" alt="Acting" title="Acting">
-                        </a>
-                    </section>
-                    <section class="two-third">
-                        <a class="example-image-link" id="lightbox-img" href="img/galeri/thumb/6.jpg" data-lightbox="example-set" data-titles="#">
-                            <img class="example-image" src="img/galeri/thumb/6.jpg" alt="Traditional" title="Traditional Dance">
-                        </a>
-                    </section>
-                    <!--Gallery2 End-->
+                <div class="tz-gallery">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/galeri/thumb/1.jpg">
+                                <img src="img/galeri/thumb/1.jpg" alt="Costume">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/galeri/thumb/2.jpg">
+                                <img src="img/galeri/thumb/2.jpg" alt="Dance">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="img/galeri/thumb/3.jpg">
+                                <img src="img/galeri/thumb/3.jpg" alt="Dance">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/galeri/thumb/4.jpg">
+                                <img src="img/galeri/thumb/4.jpg" alt="Acting">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/galeri/thumb/5.jpg">
+                                <img src="img/galeri/thumb/5.jpg" alt="Stage Act">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="img/galeri/thumb/6.jpg">
+                                <img src="img/galeri/thumb/6.jpg" alt="Traditional">
+                            </a>
+                        </div>
+                    </div>
                 </div>
-
-            </article>
-        </header>
-        <br>
+            </div>
+        </header>            
         <div class="features-boxed">
             <div class="container">
                 <div class="intro">
@@ -247,11 +241,14 @@
         </footer>
 
         <!-- Footer End -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+        <script>
+            baguetteBox.run('.tz-gallery');
+        </script>
+</body>
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/jquery.easing.1.3.js"></script>
         <script src="js/function.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/script.js"></script>
-</body>
-
 </html>
