@@ -39,7 +39,7 @@ img {
 
 .latar h1 {
     padding-left: 110px;
-    padding-top: 250px;
+    padding-top: 200px;
     font-size: 56px;
     text-shadow: 3px 3px 3px #000;
 }
@@ -54,7 +54,7 @@ img {
 
 /* Navbar */
 .header-fixed {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.85);
 	box-shadow:0 1px 1px black;
 	padding: 20px 40px;
 	height: 80px;
@@ -67,12 +67,10 @@ img {
 
 .header-fixed .header-limiter {
 	max-width: 1200px;
+    background: rgba(0, 0, 0, 0.85);
 	text-align: center;
 	margin: 0 auto;
 }
-
-/*	The header placeholder. It is displayed when the header is fixed to the top of the
-	browser window, in order to prevent the content of the page from jumping up. */
 
 .header-fixed-placeholder{
 	height: 80px;

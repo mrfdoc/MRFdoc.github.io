@@ -22,6 +22,8 @@ $(window).scroll(function () {
 
 baguetteBox.run('.tz-gallery');
 
+
+
 $(document).ready(function(){
     
             var showHeaderAt = 150;
@@ -33,7 +35,7 @@ $(document).ready(function(){
     
             if(win.width() > 600){
     
-                // When we scroll more than 150px down, we set the
+                // scroll > 150px down, set fixed body element
                 // "fixed" class on the body element.
     
                 win.on('scroll', function(e){
