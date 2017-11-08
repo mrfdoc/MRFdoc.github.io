@@ -16,7 +16,6 @@ $(window).scroll(function () {
     $('.back').css({
         'transform': 'translate(0px, -' + wScroll / 80 + '%)'
     });
-
 });
 
 

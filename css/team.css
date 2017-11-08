@@ -222,6 +222,7 @@ body.fixed .header-fixed .header-limiter nav {
     position: absolute;
     top: 0px;
     text-align: center;
+    font-size: 18px;
     line-height: 170px;
     color: whitesmoke;
     text-shadow: 1px 1px 1px #000000;
