@@ -438,6 +438,10 @@ body.fixed .header-fixed .header-limiter nav {
 	margin-bottom: 5px;
 }
 
+@media screen and (max-width: 1080px) {
+	
+}
+
 @media (max-width: 880px) {
 
 	.footer-distributed{
