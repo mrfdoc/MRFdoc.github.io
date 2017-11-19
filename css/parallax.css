@@ -234,6 +234,10 @@ body.fixed .header-fixed .header-limiter nav {
         border-radius: 0;
 	}
 	
+	#map {
+		width: 25%;
+	}
+
 	h1 {
 		font-size: 30px;
 	}
