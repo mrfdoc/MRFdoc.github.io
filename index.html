@@ -63,40 +63,42 @@
             <br>
 
             <!-- Gallery Kabaret Show -->
-            <div class="container gallery-container">
-                <h1>KABARET SHOW</h1>
-                <hr>
-                <div class="tz-gallery">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="img/galeri/thumb/1.jpg">
-                                <img src="img/galeri/thumb/1.jpg" alt="Costume">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="img/galeri/thumb/5.jpg">
-                                <img src="img/galeri/thumb/5.jpg" alt="Dance">
-                            </a>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <a class="lightbox" href="img/galeri/thumb/3.jpg">
-                                <img src="img/galeri/thumb/3.jpg" alt="Dance">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="img/galeri/thumb/4.jpg">
-                                <img src="img/galeri/thumb/4.jpg" alt="Acting">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="img/galeri/thumb/2.jpg">
-                                <img src="img/galeri/thumb/2.jpg" alt="Stage Act">
-                            </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4">
-                            <a class="lightbox" href="img/galeri/thumb/6.jpg">
-                                <img src="img/galeri/thumb/6.jpg" alt="Traditional">
-                            </a>
+            <div class="isigaleri">
+                <div class="container gallery-container">
+                    <h1>KABARET SHOW</h1>
+                    <hr>
+                    <div class="tz-gallery">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="img/galeri/thumb/1.jpg">
+                                    <img src="img/galeri/thumb/1.jpg" alt="Costume">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="img/galeri/thumb/5.jpg">
+                                    <img src="img/galeri/thumb/5.jpg" alt="Dance">
+                                </a>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                                <a class="lightbox" href="img/galeri/thumb/3.jpg">
+                                    <img src="img/galeri/thumb/3.jpg" alt="Dance">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="img/galeri/thumb/4.jpg">
+                                    <img src="img/galeri/thumb/4.jpg" alt="Acting">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="img/galeri/thumb/2.jpg">
+                                    <img src="img/galeri/thumb/2.jpg" alt="Stage Act">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 col-md-4">
+                                <a class="lightbox" href="img/galeri/thumb/6.jpg">
+                                    <img src="img/galeri/thumb/6.jpg" alt="Traditional">
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,6 +111,7 @@
                 <div class="intro">
                 </div>
                 <h1 class="text-center">WHAT IS A KABARET BANDUNG?</h1>
+                <hr>
                 <p class="text-center">Cabaret is a performing arts that is a blend of theater art, dance art and artistic art wrapped through audio
                     mixing with the concept of performance art that develop from time to time dynamically and very exist
                     developed by young people in the city of Bandung. The art of cabaret performances has been recognized
@@ -155,6 +158,25 @@
         <!-- View -->
         <div class="view"></div>
 
+        <h1>Our Location</h1>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = { lat: -6.907971, lng: 107.626393 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 14,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhSUFaJN48j0M3Qw1vMb11-7-SbEkhw60&callback=initMap">
+        </script>
+
+        
         <!-- Footer -->
         <footer class="footer-distributed">
 
@@ -227,6 +249,7 @@
 
         <!-- Footer End -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+
 </body>
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
