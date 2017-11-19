@@ -145,7 +145,7 @@ body.fixed .header-fixed .header-limiter nav {
 
 /* header responsive */
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 768px) {
 
 	.header-fixed {
 		padding: 20px 0;
@@ -174,6 +174,7 @@ body.fixed .header-fixed .header-limiter nav {
 	}
 
 }
+/* End Header Responsive */
 
 /* Background Gedung Sate */
 .back {
@@ -433,7 +434,7 @@ body.fixed .header-fixed .header-limiter nav {
    }
 
 
-@media (max-width: 880px) {
+@media (max-width: 768px) {
 
 	.footer-distributed{
 		font: bold 14px sans-serif;
@@ -474,6 +475,7 @@ body.fixed .header-fixed .header-limiter nav {
 	}
 
 	.latar h1 {
+		width: 100%;
 		padding-left: 30px;
 		padding-top: 200px;
 		font-size: 56px;
@@ -481,6 +483,7 @@ body.fixed .header-fixed .header-limiter nav {
 	}
 	
 	.latar h2 {
+		width: 100%;
 		padding-left: 70px;
 		color: rgb(157, 0, 209);
 		font-size: 48px;
@@ -488,10 +491,9 @@ body.fixed .header-fixed .header-limiter nav {
 	}
 }
 
-
-
 @media screen and (max-width: 768px) {
     .latar img {
+		width: 100%;
         background-size: 250%;
     }
     .latar h1 {
