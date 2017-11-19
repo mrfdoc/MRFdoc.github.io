@@ -24,6 +24,23 @@ img {
 }
 
 
+.preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: #fff;
+  }
+  .preloader .loading {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+  }
+
+
 /* Parallax */
 .latar {
     position: relative;
@@ -428,8 +445,12 @@ body.fixed .header-fixed .header-limiter nav {
 	margin-bottom: 5px;
 }
 
+.footer-distributed .footer-icons i {
+	color: whitesmoke;
+}
+
 #map {
-	height: 400px;
+	height: 250px;
 	width: 100%;
    }
 
