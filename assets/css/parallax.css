@@ -862,8 +862,8 @@ textarea::-ms-input-placeholder{
     } 
 
 }
-
 /*End off Preloader*/
+
 
 
 /*
@@ -893,7 +893,7 @@ Home Section style
 
 
 /*
-Kabaret section style
+Kabaret Welcome section style
 ====================*/
 .content article {
     padding: 100 0px;
@@ -907,8 +907,10 @@ Kabaret section style
     line-height: 25px;
 }
 
-
-.main_kabaret{
+/*
+Kabaret About section style
+====================*/
+.main_kabaret {
     display: table;
     width:100%;
 }
