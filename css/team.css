@@ -172,6 +172,12 @@ body.fixed .header-fixed .header-limiter nav {
 
 }
 
+.container-img {
+	width: 80%;
+	margin: 30px auto;
+	overflow: hidden;
+}
+
 
 /* Logo Member */
 .container {
