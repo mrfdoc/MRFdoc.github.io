@@ -18,6 +18,7 @@
 <link rel="stylesheet" href="assets/css/fonticons.css">
 <link rel="stylesheet" href="assets/css/font-awesome.min.css">
 <link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/lightbox.css">
 <link rel="stylesheet" href="assets/css/magnific-popup.css">
 <link rel="stylesheet" href="assets/css/bootsnav.css">
 <link rel="stylesheet" href="assets/css/parallax.css">
@@ -221,7 +222,7 @@
             <div class="overlay"></div>
             <div class="main_video roomy-100 m-top-100 m-bottom-100 text-center">
                 <div class="video_text text-center">
-                    <a href="https://www.youtube.com/embed/taILin8AdmM" class="video-link">
+                    <a href="https://youtu.be/taILin8AdmM" class="video-link">
                         <span class="fa fa-play"></span>
                     </a>
                 </div>
@@ -229,7 +230,18 @@
         </section>
         <!--End off video section -->
 
-
+        $(document).ready(function() {
+            $('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+        
+                fixedContentPos: false
+            });
+        });
+        
         <!--History-->
         <section id="history" class="section section-md section-bottom-0 bg-white text-center">
             <div class="shell shell-wide">
