@@ -1,279 +1,829 @@
 <!DOCTYPE html>
-<html lang="en" id="home">
+<html class="no-js" lang="en">
+<meta charset="utf-8">
+<title>Forum Kabaret Bandung</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="fkb.png">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/parallax.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Contrail+One|Crimson+Text|Lora|Rozha+One" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Poppins" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-    <title>Forum Kabaret Bandung</title>
-    <link rel="icon" href="img/logofkb.png">
-    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
-    <script type="text/javascript">
-        $(window).load(function () { $(".preload-wrapper").delay(2000).fadeOut("slow"); })
-    </script>
+<!--Google Font link-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="assets/css/slick.css">
+<link rel="stylesheet" href="assets/css/slick-theme.css">
+<link rel="stylesheet" href="assets/css/animate.css">
+<link rel="stylesheet" href="assets/css/fonticons.css">
+<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="assets/css/magnific-popup.css">
+<link rel="stylesheet" href="assets/css/bootsnav.css">
+<link rel="stylesheet" href="assets/css/parallax.css">
+<link rel="stylesheet" href="assets/css/responsive.css" />
+<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
-<body>
-    <!-- Preloader -->
-    <div class="preload-wrapper">
-        <div id="preloader_2">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+<body data-spy="scroll" data-target=".navbar-collapse">
+    <div id="loading">
+        <div id="loading-center">
+            <div id="loading-center-absolute">
+                <div class="object" id="object_one"></div>
+                <div class="object" id="object_two"></div>
+                <div class="object" id="object_three"></div>
+                <div class="object" id="object_four"></div>
+            </div>
         </div>
     </div>
 
-    
-    <!-- awal navbar -->
-    <header class="header-fixed">
-        <div class="header-limiter">
-            <h1>
-                <a href="index.html">FORUM
-                    <span>KABARET</span> BANDUNG</a>
-            </h1>
-            <nav>
-                <a href="#home" class="page-scroll">Home</a>
-                <a href="#gallery" class="page-scroll">Kabaret</a>
-                <a href="history.html">History</a>
-                <a href="tim.html">Member</a>
-                <a href="#">About Us</a>
-            </nav>
+    <div class="culmn">
+        <nav class="navbar navbar-default navbar-fixed white no-background bootsnav">
+            <div class="top-search">
+                <div class="container">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="fa fa-search"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-addon close-search">
+                            <i class="fa fa-times"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="#brand">
+                        <img src="assets/images/logofkbb.png" class="logo logo-display m-top-10" alt="Logo Hitam">
+                        <img src="assets/images/logofkb.png" class="logo logo-scrolled" alt="Logo putih">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                        <li>
+                            <a href="#home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#kabaret">Kabaret</a>
+                        </li>
+                        <li>
+                            <a href="#history">History</a>
+                        </li>
+                        <li>
+                            <a href="#events">Events</a>
+                        </li>
+                        <li>
+                            <a href="#awards">Award</a>
+                        </li>
+                        <li>
+                            <a href="#team">About</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Member</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+        <!--Home Sections-->
+        <section id="home" class="home bg-mega">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="main_home">
+                        <div class="home_text">
+                            <h1 class="text-white">FORUM
+                                <span>KABARET</span> BANDUNG</h1>
+                            <h3 class="text-white">Young
+                                <span>-</span> Innovative
+                                <span>-</span> Inspire</h1>
+                        </div>
+                    </div>
+                </div>
+                <!--End off row-->
+            </div>
+            <!--End off container -->
+        </section>
+        <!--End off Home Sections-->
+        <br>
+        <!--Welcome Section-->
+        <div class="content">
+            <article>
+                <h1>KABARET BANDUNG</h1>
+                <hr>
+                <p>Welcome to Forum Kabaret Bandung Website, a creative and innovative children's gathering community. Unite
+                    to go forward, work, develop and inspire Bandung City Society through modern stage performing arts.</p>
+            </article>
         </div>
-    </header>
 
-    <div class="header-fixed-placeholder"></div>
-    <!-- akhir navbar -->
-
-    <header class="latar">
-        <h1>KABARET BANDUNG</h1>
-        <h2>Young - Inspire - Innovative</h2>
-    </header>
-
-    <section class="content">
-        <article>
-            <h1>KABARET BANDUNG</h1>
+        <!--Kabaret Sections-->
+        <section id="kabaret" class="kabaret roomy-100">
             <hr>
-            <p>Welcome to Forum Kabaret Bandung Website, a creative and innovative children's gathering community. Unite to
-                go forward, work, develop and inspire Bandung City Society through modern stage performing arts.</p>
-        </article>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+            <div class="container">
+                <div class="row">
+                    <div class="main_kabaret">
+                        <div class="col-md-6">
+                            <div class="kabaret_content">
+                                <h2>ABOUT KABARET</h2>
+                                <div class="separator_left"></div>
 
-        <!-- Gedung Sate -->
-        <header class="back" id="gallery">
-            <br>
+                                <p style="font-size:16px;">Kabaret is a show or staging art that comes from the Western World where there is usually
+                                    entertainment, music, comedy and execution of theatrics or dances. The main difference
+                                    between cabaret and other performances is the venue-a restaurant or a nightclub with
+                                    a stage of the show and its audience sitting impressively on tables (while eating or
+                                    drinking) and watching the show. The place itself is also called "cabaret". In the turn
+                                    of the 20th century, there was a major change in the cabaret culture. The dancers included
+                                    Josephine Baker and the Brazilian transvestite dancer João Francisco dos Santos (aka
+                                    Madame Satã). Cabaret shows can range from political satire to light entertainment, each
+                                    by a master of ceremony (MC), or join the event.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="kabaret_accordion wow fadeIn">
+                                <div id="faq_main_content" class="faq_main_content">
+                                    <h6 class="open">
+                                        <i class="fa fa-angle-right"></i> ACTING </h6>
+                                    <div class="open">
+                                        <div class="content">
+                                            <p>Acting (role) is derived from the word "to act" which means "acting" acting in
+                                                the sense he is a combination of body attraction and spiritual.</p>
 
-            <!-- Gallery Kabaret Show -->
-            <div class="isigaleri">
-                <div class="container gallery-container">
-                    <h1>KABARET SHOW</h1>
-                    <hr>
-                    <div class="tz-gallery">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-4">
-                                <a class="lightbox" href="img/galeri/thumb/1.jpg">
-                                    <img src="img/galeri/thumb/1.jpg" alt="Responsive image" class="img-thumbnail">
-                                </a>
+                                        </div>
+                                    </div>
+                                    <!-- End off accordion item-1 -->
+
+                                    <h6>
+                                        <i class="fa fa-angle-right"></i> AUDIO MIXING</h6>
+                                    <div>
+                                        <div class="content">
+                                            <p>This mixing-audio / music process is basically a process of 'mixing' the entire
+                                                track record into a unified whole composition whereby the entire instrument
+                                                used can be heard as clear, whole and original as original as possible</p>
+                                        </div>
+                                    </div>
+                                    <!-- End off accordion item-2 -->
+
+                                    <h6>
+                                        <i class="fa fa-angle-right"></i> DANCE </h6>
+                                    <div>
+                                        <div class="content">
+                                            <p>Dance is a human gesture that is completely separated from the elements of space,
+                                                and time, and energy.</p>
+                                        </div>
+                                    </div>
+                                    <!-- End off accordion item-3 -->
+
+                                    <h6>
+                                        <i class="fa fa-angle-right"></i> ARTISTIC </h6>
+                                    <div>
+                                        <div class="content">
+                                            <p>Artistic value is the value seen in terms of its beauty in the cabaret seen in
+                                                the background aspect, costumes and make up of players who have a role.</p>
+                                        </div>
+                                    </div>
+                                    <!-- End off accordion item-4 -->
+
+                                    <h6>
+                                        <i class="fa fa-angle-right"></i> CONCLUSION </h6>
+                                    <div>
+                                        <div class="content">
+                                            <p>Kabaret is a unity of performing arts that combine elements of role art, dance
+                                                art and artistic art combined by a storyline using audio mixing or simply
+                                                is a dance that tells the story</p>
+                                        </div>
+                                    </div>
+                                    <!-- End off accordion item-5 -->
+                                </div>
                             </div>
-                            <div class="col-sm-6 col-md-4">
-                                <a class="lightbox" href="img/galeri/thumb/5.jpg">
-                                    <img src="img/galeri/thumb/5.jpg" alt="Responsive image" class="img-thumbnail">
-                                </a>
-                            </div>
-                            <div class="col-sm-12 col-md-4">
-                                <a class="lightbox" href="img/galeri/thumb/3.jpg">
-                                    <img src="img/galeri/thumb/3.jpg" alt="Responsive image" class="img-thumbnail">
-                                </a>
-                            </div>
-                            <div class="col-sm-6 col-md-4">
-                                <a class="lightbox" href="img/galeri/thumb/4.jpg">
-                                    <img src="img/galeri/thumb/4.jpg" alt="Responsive image" class="img-thumbnail">
-                                </a>
-                            </div>
-                            <div class="col-sm-6 col-md-4">
-                                <a class="lightbox" href="img/galeri/thumb/2.jpg">
-                                    <img src="img/galeri/thumb/2.jpg" alt="Responsive image" class="img-thumbnail">
-                                </a>
-                            </div>
-                            <div class="col-sm-6 col-md-4">
-                                <a class="lightbox" href="img/galeri/thumb/6.jpg">
-                                    <img src="img/galeri/thumb/6.jpg" alt="Responsive image" class="img-thumbnail">
-                                </a>
+                        </div>
+                    </div>
+                </div>
+                <!--End off row-->
+            </div>
+            <!--End off container -->
+            <hr>
+        </section>
+        <!--End off Kabaret section -->
+
+
+        <!--Video section-->
+        <section class="video">
+            <div class="overlay"></div>
+            <div class="main_video roomy-100 m-top-100 m-bottom-100 text-center">
+                <div class="video_text text-center">
+                    <a href="https://www.youtube.com/embed/taILin8AdmM" class="video-link">
+                        <span class="fa fa-play"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--End off video section -->
+
+
+        <!--History-->
+        <section id="history" class="section section-md section-bottom-0 bg-white text-center">
+            <div class="shell shell-wide">
+                <div class="range range-md-center">
+                    <div class="cell-lg-11">
+                        <!-- Section Header-->
+                        <h2 style="text-align:center;">HISTORY</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="shell-fluid">
+                <div class="range range-condensed range-md-reverse range-flex">
+                    <div class="cell-md-6 bg-gray-dark bg-image">
+                        <div class="section-variant-1">
+                            <!-- Owl Carousel-->
+                            <div class="owl-carousel owl-carousel_style-3" data-items="1" data-dots="true" data-nav="true" data-stage-padding="0" data-loop="true"
+                                data-margin="30" data-mouse-drag="false">
+                                <div class="item">
+                                    <!-- Quote light-->
+                                    <article class="quote-light">
+                                        <div class="quote-light__image-wrap">
+                                            <img class="quote-light__image" src="images/testimonials-1-88x88.jpg" alt="" width="88" height="88">
+                                        </div>
+                                        <div class="quote-light__main">
+                                            <p class="q">Forum Kabaret Bandung must exist and exist so that cabarets can be recognized
+                                                by society at large
+                                            </p>
+                                            <ul class="quote-light__meta">
+                                                <li>
+                                                    <span class="cite">Ihra Tumiwa</span>
+                                                </li>
+                                                <li>
+                                                    <span class="small">Chairman Forum Kabaret Bandung 01</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="item">
+                                    <!-- Quote light-->
+                                    <article class="quote-light">
+                                        <div class="quote-light__image-wrap">
+                                            <img class="quote-light__image" src="images/testimonials-2-88x88.jpg" alt="" width="88" height="88">
+                                        </div>
+                                        <div class="quote-light__main">
+                                            <p class="q">It needs a strong desire and greatness for the forum of Bandung cabaret to be
+                                                the best for all cabaret team
+                                            </p>
+                                            <ul class="quote-light__meta">
+                                                <li>
+                                                    <span class="cite">Yogi Gumilar</span>
+                                                </li>
+                                                <li>
+                                                    <span class="small">Chairman Forum Kabaret Bandung 02</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="item">
+                                    <!-- Quote light-->
+                                    <article class="quote-light">
+                                        <div class="quote-light__image-wrap">
+                                            <img class="quote-light__image" src="images/testimonials-3-88x88.jpg" alt="" width="88" height="88">
+                                        </div>
+                                        <div class="quote-light__main">
+                                            <p class="q">Make dreams come true
+                                            </p>
+                                            <ul class="quote-light__meta">
+                                                <li>
+                                                    <span class="cite">Billy Sandi</span>
+                                                </li>
+                                                <li>
+                                                    <span class="small">Chairman Forum Kabaret Bandung 03</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
+                                <br>
+                                <br>
+                                <div class="item">
+                                    <!-- Quote light-->
+                                    <article class="quote-light">
+                                        <div class="quote-light__image-wrap">
+                                            <img class="quote-light__image" src="assets/images/" alt="" width="88" height="88">
+                                        </div>
+                                        <div class="quote-light__main">
+                                            <p class="q">The dream is the key to success and therefore arise Forum Kabaret Bandung!
+                                            </p>
+                                            <ul class="quote-light__meta">
+                                                <li>
+                                                    <span class="cite">Fajar Nurohman</span>
+                                                </li>
+                                                <li>
+                                                    <span class="small">Chairman Forum Kabaret Bandung 04</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </article>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
+        <!--End off history-->
 
-        <!-- Kabaret Define -->
-        <div class="features-boxed">
+
+        <!-- Slide of Events -->
+        <div id="events" class="container">
+            <div class="row">
+                <div class="main_featured m-top-100">
+                    <div class="col-sm-12">
+                        <div class="head_title text-center">
+                            <h2>UPCOMING EVENTS</h2>
+                            <div class="separator_auto"></div>
+                            <p>The activity of the Forum Kabaret Bandung is very varied starting from the internal activities
+                                of the Forum Kabaret Bandung, Kabaret Festival, Kabaret Colossal Performances, joint exercises
+                                as well as trainings to regenerate the Kabaret activists</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="featured_slider">
+            <div>
+                <div class="featured_img img-responsive">
+                    <img src="assets/images/fprojects/1.jpg" alt="Poster Beauty And The Beast" />
+                    <a href="assets/images/fprojects/1.jpg" class="popup-img"></a>
+                </div>
+            </div>
+            <div>
+                <div class="featured_img">
+                    <img src="assets/images/fprojects/2.jpg" alt="Curhat DKV" />
+                    <a href="assets/images/fprojects/2.jpg" class="popup-img"></a>
+                </div>
+            </div>
+            <div>
+                <div class="featured_img">
+                    <img src="assets/images/fprojects/3.jpg" alt="Pagelaran Bung Tomo" />
+                    <a href="assets/images/fprojects/3.jpg" class="popup-img"></a>
+                </div>
+            </div>
+            <div>
+                <div class="featured_img">
+                    <img src="assets/images/fprojects/4.jpg" alt="Atas Nama Kedamaian Tersira" />
+                    <a href="assets/images/fprojects/4.jpg" class="popup-img"></a>
+                </div>
+            </div>
+            <div>
+                <div class="featured_img">
+                    <img src="assets/images/fprojects/5.jpg" alt="Pemilihan Ketua" />
+                    <a href="assets/images/fprojects/5.jpg" class="popup-img"></a>
+                </div>
+            </div>
+        </div>
+        <!-- End off Features Slide of Events -->
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <!--Impress section-->
+        <section id="awards" class="impress roomy-100">
+            <div class="overlay"></div>
             <div class="container">
-                <div class="intro">
-                </div>
-                <h1 class="text-center">WHAT IS A KABARET BANDUNG?</h1>
-                <hr>
-                <p class="text-center">Cabaret is a performing arts that is a blend of theater art, dance art and artistic art wrapped through audio
-                    mixing with the concept of performance art that develop from time to time dynamically and very exist
-                    developed by young people in the city of Bandung. The art of cabaret performances has been recognized
-                    by the government as a new cultural arts in the city of Bandung with a modern nuance that has earned
-                    several awards one of which is the Cultural Award of Bandung in 2016.</p>
-                <br>
-                <br>
-            </div>
-            <div class="row features">
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box">
-                        <img src="img/mask.png" alt="Responsive image">
-                        <h3 class="text-center">Acting</h3>
-                        <p class="text-justify description">Acting (role) is derived from the word "to act" which means "acting" acting in the sense he is a
-                            combination of body attraction and spiritual.</p>
+                <div class="row">
+                    <div class="main_impress text-center">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <h2 class="text-white text-uppercase">AWARDS</h2>
+                            <p class="m-top-40 text-white">The awards achieved by the Forum Kabaret Bandung make the kabaret increasingly exist in the community,
+                                some awards have been obtained from the record MURI and cultural awards by the City Of Bandung</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box">
-                        <img src="img/dance1.png" alt="Responsive image">
-                        <h3 class="text-center">Dance</h3>
-                        <p class="text-justify description">Dance is a human gesture that is completely separated from the elements of space, and time, and energy.
+                <!--End off row -->
+            </div>
+            <!--End off container -->
+        </section>
+        <!-- End off Impress section-->
+
+
+        <!--Portfolio Gallery Section-->
+        <section class="portfolio lightbg">
+            <div class="container">
+                <div class="row">
+                    <div class="main_portfolio roomy-100">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="head_title text-center">
+                                <h2>GALLERY</h2>
+                                <div class="separator_auto"></div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio_content">
+                            <div class="col-md-8">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="portfolio_item">
+                                            <img src="assets/images/Portfolio/2.jpg" alt="" />
+                                            <div class="portfolio_hover text-center">
+                                                <h6 class="text-uppercase text-white">Opening Dance</h6>
+                                                <p class=" text-white">Pagelaran Bung Tomo</p>
+                                                <div class="portfolio_hover_icon">
+                                                    <a href="assets/images/Portfolio/2.jpg" class="popup-img">
+                                                        <i class="fa fa-expand"></i>
+                                                    </a>
+                                                    <a href="https://instagram.com/jaris_pro" target="_blank">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 m-top-30">
+                                        <div class="portfolio_item portfolio_item2">
+                                            <img src="assets/images/Portfolio/3.jpg" alt="" />
+                                            <div class="portfolio_hover text-center">
+                                                <h6 class="text-uppercase text-white">Scene</h6>
+                                                <p class=" text-white">Pagelaran Ahmad Yani</p>
+                                                <div class="portfolio_hover_icon">
+                                                    <a href="assets/images/Portfolio/3.jpg" class="popup-img">
+                                                        <i class="fa fa-expand"></i>
+                                                    </a>
+                                                    <a href="https://instagram.com/jaris_pro" target="_blank">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 m-top-30">
+                                        <div class="portfolio_item portfolio_item2">
+                                            <img src="assets/images/Portfolio/5.jpg" alt="" />
+                                            <div class="portfolio_hover text-center">
+                                                <h6 class="text-uppercase text-white">Acting</h6>
+                                                <p class=" text-white">Pagelaran Bung Tomo</p>
+                                                <div class="portfolio_hover_icon">
+                                                    <a href="assets/images/Portfolio/5.jpg" class="popup-img">
+                                                        <i class="fa fa-expand"></i>
+                                                    </a>
+                                                    <a href="https://instagram.com/jaris_pro" target="_blank">
+                                                        <i class="fa fa-search"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="portfolio_item portfolio_item">
+                                    <img src="assets/images/Portfolio/1.jpg" alt="" />
+                                    <div class="portfolio_hover text-center">
+                                        <h6 class="text-uppercase text-center text-white">Costume Party</h6>
+                                        <p class=" text-white">Pagelaran Nusantara</p>
+                                        <div class="portfolio_hover_icon">
+                                            <a href="assets/images/Portfolio/1.jpg" class="popup-img">
+                                                <i class="fa fa-expand"></i>
+                                            </a>
+                                            <a href="https://instagram.com/dejavooact" target="_blank">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 m-top-30">
+                                <div class="portfolio_item portfolio_item2">
+                                    <img src="assets/images/Portfolio/6.jpg" alt="" />
+                                    <div class="portfolio_hover text-center">
+                                        <h6 class="text-uppercase text-white">Scene</h6>
+                                        <p class=" text-white">Pagelaran Jaris Production</p>
+                                        <div class="portfolio_hover_icon">
+                                            <a href="assets/images/Portfolio/6.jpg" class="popup-img">
+                                                <i class="fa fa-expand"></i>
+                                            </a>
+                                            <a href="https://instagram.com/jaris_pro" target="_blank">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8 m-top-30">
+                                <div class="portfolio_item">
+                                    <img src="assets/images/Portfolio/4.jpg" alt="" />
+                                    <div class="portfolio_hover text-center">
+                                        <h6 class="text-uppercase text-white">Elegant</h6>
+                                        <p class=" text-white">Pagelaran Mahabharata</p>
+                                        <div class="portfolio_hover_icon">
+                                            <a href="assets/images/Portfolio/4.jpg" class="popup-img">
+                                                <i class="fa fa-expand"></i>
+                                            </a>
+                                            <a href="https://instagram.com/badalohor_bki" target="_blank">
+                                                <i class="fa fa-search"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End off row -->
+            </div>
+            <!--End off container -->
+        </section>
+        <!-- End off Portfolio Gallery section-->
+
+
+        <!--Blog Section-->
+        <section id="team" class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="main_blog text-center roomy-100">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <div class="head_title text-center">
+                                <h2>TEAM</h2>
+                                <div class="separator_auto"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt
+                                    tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog_item m-top-20">
+                                <div class="blog_item_img">
+                                    <img src="assets/images/Blog/2s.jpg" alt="" />
+                                </div>
+                                <div class="blog_text roomy-40">
+                                    <h6>WEB DEVELOPER</h6>
+                                    <p>
+                                        <a href="https://instagram.com/rizal_alfahmi" target="_blank">MUHAMMAD RIZAL FAHMI</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog_item m-top-20">
+                                <div class="blog_item_img">
+                                    <img src="assets/images/Blog/1s.jpg" alt="" />
+                                </div>
+                                <div class="blog_text roomy-40">
+                                    <h6>CHAIRMAN OF FORUM KABARET BANDUNG 05</h6>
+                                    <p>
+                                        <a href="https://instagram.com/aldirr05" target="_blank">ALDI REZA</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="blog_item m-top-20">
+                                <div class="blog_item_img">
+                                    <img src="assets/images/Blog/3s.jpg" alt="" />
+                                </div>
+                                <div class="blog_text roomy-40">
+                                    <h6>UI / UX DESIGNER</h6>
+                                    <p>
+                                        <a href="https://instagram.com/senaseptian" target="_blank">SENA SEPTIAN</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--End off row -->
+            </div>
+            <!--End off container -->
+        </section>
+        <!-- End off Blog section-->
+
+
+
+        <!--client brand section-->
+        <section id="cbrand" class="cbrand">
+            <div class="container">
+                <div class="row">
+                    <div class="main_cbrand text-center roomy-100">
+                        <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="cbrand_item m-bottom-10">
+                                <a href="">
+                                    <img src="assets/images/clients/1.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="cbrand_item m-bottom-10">
+                                <a href="">
+                                    <img src="assets/images/clients/5.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="cbrand_item m-bottom-10">
+                                <a href="">
+                                    <img class="" src="assets/images/clients/3.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="cbrand_item m-bottom-10">
+                                <a href="">
+                                    <img src="assets/images/clients/4.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="cbrand_item m-bottom-10">
+                                <a href="">
+                                    <img src="assets/images/clients/2.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4 col-xs-6">
+                            <div class="cbrand_item m-bottom-10">
+                                <a href="">
+                                    <img src="assets/images/clients/6.jpg" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End off row -->
+            </div>
+            <!-- End off container -->
+        </section>
+        <!-- End off Cbrand section -->
+
+
+        <!--Maps Section-->
+        <div class="main_maps text-center fix">
+            <div class="overlay"></div>
+            <div class="maps_text">
+                <h3 class="text-white" onclick="showmap()">FIND US ON THE MAP
+                    <i class="fa fa-angle-down"></i>
+                </h3>
+                <div id="map_canvas" class="mapheight"></div>
+            </div>
+        </div>
+        <!-- End off Maps Section-->
+
+
+
+        <!--Contact Us Section-->
+        <section id="contact" class="contact bg-mega fix">
+            <div class="container">
+                <div class="row">
+                    <div class="main_contact roomy-100 text-white">
+                        <div class="col-md-4">
+                            <div class="rage_widget">
+                                <div class="widget_head">
+                                    <h3 class="text-white">FORUM
+                                        <span>KABARET</span> BANDUNG</h3>
+                                    <div class="separator_small"></div>
+                                </div>
+                                <p>Forum Kabaret Bandung is one of the containers of the art of cabaret art in the city of Bandung
+                                    consisting of several teams derived both from extracurricular in school and management
+                                    of famous cabaret team managers in Bandung and surrounding areas.
+                                </p>
+
+                                <div class="widget_socail m-top-30">
+                                    <ul class="list-inline">
+                                        <li>
+                                            <a href="https://www.facebook.com/KabaretBandung/" target="_blank">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/kabaretbandung?lang=en" target="_blank">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/kabaretbandung" target="_blank">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-8 sm-m-top-30">
+                            <form class="" action="subcribe.php">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input id="first_name" name="first_name" type="text" placeholder="Name" class="form-control" required="">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" rows="6" placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="form-group text-center">
+                                            <a href="" class="btn btn-primary">SEND MESSAGE</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!--End off row -->
+            </div>
+            <!--End off container -->
+        </section>
+        <!--End off Contact Section-->
+
+
+        <!-- scroll up-->
+        <div class="scrollup">
+            <a href="#">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+        <!-- End off scroll up -->
+
+
+        <footer id="footer" class="footer bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="main_footer text-center p-top-40 p-bottom-30">
+                        <p class="wow fadeInRight" data-wow-duration="1s">
+                            MRF doc
+                            <a target="_blank" href="https://www.instagram.com/kabaretbandung">Forum Kabaret Bandung</a>
+                            2016. All Rights Reserved
                         </p>
-
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 item">
-                    <div class="box">
-                        <img src="img/artistic.png" alt="Responsive image">
-                        <h3 class="text-center">Artistic</h3>
-                        <p class="text-justify description">Artistic value is the value seen in terms of its beauty in the cabaret seen in the background aspect,
-                            costumes and make up of players who have a role.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/uddyvAc2T08"></iframe>
-        </div>
-        <!-- View -->
-        <div class="view"></div>
-
-        <h1 style="text-align:center">Our Location</h1>
-        <div id="map"></div>
-        <script>
-            function initMap() {
-                var uluru = { lat: -6.907971, lng: 107.626393 };
-                var map = new google.maps.Map(document.getElementById('map'), {
-                    zoom: 14,
-                    center: uluru
-                });
-                var marker = new google.maps.Marker({
-                    position: uluru,
-                    map: map
-                });
-            }
-        </script>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhSUFaJN48j0M3Qw1vMb11-7-SbEkhw60&callback=initMap">
-        </script>
-
-
-        <!-- Footer -->
-        <footer class="footer-distributed">
-
-            <div class="footer-left">
-                <img src="img/logofkb.png" alt="Logo FKB">
-                <p class="footer-links">
-                    <a href="#home" class="page-scroll">Home</a>
-                    ·
-                    <a href="#gallery" class="page-scroll">Kabaret</a>
-                    ·
-                    <a href="#">History</a>
-                    ·
-                    <a href="tim.html">Member</a>
-                    ·
-                    <a href="#">About</a>
-                </p>
-                <p class="footer-company-name">ForumKabaretBandung &copy; MRFdoc 2017.</p>
-            </div>
-
-            <div class="footer-center">
-                <div>
-                    <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <p>
-                        <span>5 Taman Cibeunying Selatan Street</span> Bandung, Indonesia</p>
-                </div>
-
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+62 813 3006 3943</p>
-                </div>
-
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p>
-                        <a href="bandungkabaret@gmail.com">bandungkabaret@gmail.com</a>
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="footer-right">
-
-                <p class="footer-company-about">
-                    <span>About us</span>
-                    Forum Kabaret Bandung is one of the containers of the art of cabaret art in the city of Bandung consisting of several teams
-                    derived both from extracurricular in school and management of famous cabaret team managers in Bandung
-                    and surrounding areas.
-                </p>
-
-
-                <div class="footer-icons">
-                    <a href="#">
-                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-gmail"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fa fa-line"></i>
-                    </a>
-
-                </div>
-
-            </div>
-
         </footer>
 
-        <!-- Footer End -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    </div>
+
+    <!-- JS includes -->
+
+    <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+    <script src="assets/js/jquery.magnific-popup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/jquery.collapse.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+
+
+    <!-- paradise slider js -->
+
+
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
+    <script src="assets/js/gmaps.min.js"></script>
+
+    <script>
+        function showmap() {
+            var mapOptions = {
+                zoom: 15,
+                scrollwheel: false,
+                center: new google.maps.LatLng(-6.904695, 107.62426),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+            $('.mapheight').css('height', '350');
+            $('.maps_text h3').hide();
+        }
+
+    </script>
+
+
+
+
+
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
-<script src="js/jquery-3.2.1.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/function.js"></script>
-<script src="js/script.js"></script>
 
 </html>
