@@ -1411,36 +1411,10 @@ Blog Section style
 Maps Section style
 =====================*/
 
-.main_maps{
-    background: url(../images/maps.jpg) no-repeat center center;
-    position: relative;
-    width:100%;
-    overflow: hidden;
-}
-
-.maps_text{
-    position: relative;
-    z-index: 1;
-}
-.maps_text h3{
-    top:20%;
-    position: relative;
-    margin-top: 95px;
-}
-.maps_text h3 i{
-    width: 20px;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 50%;
-    background-color: #ff6863;
-    font-size: 1rem;
-    display: inline-block;
-    top: -5px;
-    position: relative;
-    margin-left: 10px;
-}
-
-
+#map {
+	height: 250px;
+	width: 100%;
+   }
 
 /*
 Contact Section style

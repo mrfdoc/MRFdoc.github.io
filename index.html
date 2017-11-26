@@ -683,15 +683,23 @@
 
 
         <!--Maps Section-->
-        <div class="main_maps text-center fix">
-            <div class="overlay"></div>
-            <div class="maps_text">
-                <h3 class="text-white" onclick="showmap()">FIND US ON THE MAP
-                    <i class="fa fa-angle-down"></i>
-                </h3>
-                <div id="map_canvas" class="mapheight"></div>
-            </div>
-        </div>
+        <h2 style="text-align:center">Our Location</h1>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+                var uluru = { lat: -6.907971, lng: 107.626393 };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 14,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhSUFaJN48j0M3Qw1vMb11-7-SbEkhw60&callback=initMap">
+        </script>
         <!-- End off Maps Section-->
 
 
@@ -725,7 +733,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.instagram.com/kabaretbandung" target="_blank">
+                                            <a href="https://www.instagram.com/kabaretbandung/" target="_blank">
                                                 <i class="fa fa-instagram"></i>
                                             </a>
                                         </li>
@@ -772,7 +780,7 @@
 
         <!-- scroll up-->
         <div class="scrollup">
-            <a href="#">
+            <a href="#home">
                 <i class="fa fa-chevron-up"></i>
             </a>
         </div>
@@ -783,7 +791,7 @@
             <div class="container">
                 <div class="row">
                     <div class="main_footer text-center p-top-40 p-bottom-30">
-                        <p class="wow fadeInRight" data-wow-duration="1s">
+                        <p class="wow fadeInRight" data-wow-duration="2s">
                             MRF doc
                             <a target="_blank" href="https://www.instagram.com/kabaretbandung">Forum Kabaret Bandung</a>
                             2016. All Rights Reserved
@@ -813,22 +821,7 @@
     <!-- paradise slider js -->
 
 
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyD_tAQD36pKp9v4at5AnpGbvBUsLCOSJx8"></script>
     <script src="assets/js/gmaps.min.js"></script>
-
-    <script>
-        function showmap() {
-            var mapOptions = {
-                zoom: 15,
-                scrollwheel: false,
-                center: new google.maps.LatLng(-6.904695, 107.62426),
-                mapTypeId: google.maps.MapTypeId.ROADMAP
-            };
-            var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-            $('.mapheight').css('height', '350');
-            $('.maps_text h3').hide();
-        }
-    </script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/main.js"></script>
 
