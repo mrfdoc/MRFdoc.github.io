@@ -23,49 +23,7 @@ $(document).ready(function() {
 		centerHomeBannerText();
 	});
 	}
-	document.onscroll = scroll;
-	var $scrollDownArrow = $('#scrollDownArrow');
-	var animateScrollDownArrow = function() {
-		$scrollDownArrow.animate( {
-			top: 5,
-		}
-		, 400, "linear", function() {
-			$scrollDownArrow.animate( {
-				top: -5,
-			}
-			, 400, "linear", function() {
-				animateScrollDownArrow();
-			}
-			);
-		});
-	}
-	animateScrollDownArrow();
-	//Set Down Arrow Button
-	jQuery('#scrollDownArrow').click(function(e) {
-		e.preventDefault();
-		jQuery.scrollTo("#video", 1000, {
-			offset:-(jQuery('#header #menu').height()), axis:'y'
-		}
-		);
-	});
-	jQuery('.nav > li > a, #logo a').click(function(e) {
-		e.preventDefault();
-
-		jQuery.scrollTo(jQuery(this).attr('href'), 400, {
-			offset:-(jQuery('#header #menu').height()), axis:'y'
-		}
-		);
-	});
-
-
-
-	//jQuery('.giant-heading, .condensed').fitText();
-
-
-});
-
-
-
+	
 /*---------------   Social Button tooltip ---------------*/
 
 
@@ -74,3 +32,16 @@ $(document).ready(function() {
 	  $('[data-toggle="tooltip"]').tooltip()
 	})
 });
+
+$('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: (target.offset().top - 54)
+        }, 1000, "easeInOutExpo");
+        return false;
+      }
+    }
+  });
