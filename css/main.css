@@ -74,12 +74,6 @@ img {
     position:absolute;
     bottom: 0;
 }
-#header .bottom a {
-    font-size:58px;
-    color:whitesmoke;
-    position:relative;
-    top:-5px;
-}
 
 /* ==========================================================================
  Navigation 
@@ -1533,12 +1527,21 @@ footer ul li a {
     .main_impress h2 {
         padding-top: 0px;
     }
+    .main_impress p {
+        font-size: 90%;
+    }
+    .logo {
+        width:300%;
+    }
 }
 
 
 @media (max-width:767px) {
     #header .banner h1 {
         font-size:60px;
+    }
+    .logo {
+        width:300%;
     }
     #header .subtitle h4 {
         font-size: 22px;
@@ -1556,7 +1559,9 @@ footer ul li a {
     .main_impress h2 {
         padding-top: 0px;
     }
-
+    .main_impress p {
+        font-size: 90%;
+    }
     .blog .left .news > img, .blog .right .news > img {
         float: none;
         width: 100%;
