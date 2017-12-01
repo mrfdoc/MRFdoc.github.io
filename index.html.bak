@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Forum Kabaret Bandung</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/fluid-gallery.css">
+    <link href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" type="image/png" href="fkb.png">
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <script type="text/javascript" src="engine0/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <!--script type="text/javascript" src="engine1/jquery.js"></script-->
+    <!-- End WOWSlider.com HEAD section -->
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <!--script type="text/javascript" src="engine0/jquery.js"></script-->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- End WOWSlider.com HEAD section -->
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <!--script type="text/javascript" src="engine1/jquery.js"></script-->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- End WOWSlider.com HEAD section -->
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine0/style.css" />
+    <!--script type="text/javascript" src="engine0/jquery.js"></script-->
+    <script src="https://www.youtube.com/iframe_api"></script>
+
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body data-spy="scroll" data-target="#navbar" data-offset="120">
+    <div id="header">
+        <div class="bg-overlay"></div>
+        <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <i class="ion-navicon"></i>
+                    </button>
+                    <a class="navbar-brand" href="#header">
+                        <h2>ForumKabaretBandung</h2>
+                    </a>
+                </div>
+                <!-- navbar-header -->
+                <div id="navbar" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#header">Home</a>
+                        </li>
+                        <li>
+                            <a href="#kabaret">Kabaret</a>
+                        </li>
+                        <li>
+                            <a href="#news">News</a>
+                        </li>
+                        <li>
+                            <a href="#awards">Awards</a>
+                        </li>
+                        <li>
+                            <a href="#gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#footer">Footer</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--/.navbar-collapse -->
+            </div>
+            <!-- container -->
+        </div>
+        <!-- menu -->
+
+        <div class="center text-right">
+            <div class="container">
+                <div class="banner">
+                    <h1 class="condensed">KABARET</h1>
+                    <h1 class="condensed">BANDUNG</h1>
+                </div>
+                <div class="subtitle">
+                    <h4>Young - Innovative - Inspire</h4>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="text-right container hidden-xs">
+                <a id="scrollDownArrow" href="#">
+                    <i class="ion-ios7-arrow-thin-down"></i>
+                </a>
+            </div>
+            <div class="headerbottom">
+            </div>
+            <!--/headerbottom-->
+        </div>
+    </div>
+    <!-- /#header -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="kabaret" class="content">
+        <article>
+            <h1>KABARET BANDUNG</h1>
+            <hr>
+            <p>Welcome to Forum Kabaret Bandung Website, a creative and innovative children's gathering community. Unite to
+                go forward, work, develop and inspire Bandung City Society through modern stage performing arts.</p>
+        </article>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="kabaret-wrapper">
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+                        <h1 class="giant-heading">
+                            kabaret
+                            <br/> bandung
+                            <br/> show
+                        </h1>
+
+                        <p>Kabaret Born from a youth of the 70s, carried away from the Art of Cabaret Colonization in France.
+                            The creative youngsters began to form the performing arts by committing the songs and performances,
+                            namely Kabaret, the children are the Parahyangan University & Padjadjaran University Students
+                            association, which has been known up to now as Padyangan. Forum Kabaret Bandung stands in 1999,
+                            which is dominated by children cabaret from Stepu [Studio Kabaret Puragabaya] and only lasted
+                            for 1 year, Vacuum 8 Years, At last Kabaret Bandung Forum Back in birth Year 2008, with early
+                            association Anton Yustuan [AAP ] Windi, Wendi, Tarmizi, Seetonk [Badalohor] Nanang, Dani [Portrait
+                            19] Ihra, Soboer, Dedi, Triana, Dani Igu, Ivan, Warid [Stepu] Deni [Trilogy]. Finally FKB Officially
+                            Stood On May 10, 2008 At Dago Tea house Bandung.</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+                        <div class="video"></div>
+
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/O6AJi0RlMDY" frameborder="0" allowfullscreen></iframe>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- /.services -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- #video -->
+
+
+    <div class="light-wrapper">
+        <div class="container inner">
+            <div class="row story">
+                <div class="col-sm-6">
+                    <div class="col-wrapper">
+                        <img class="bottom-marged" src="img/content-left.jpg">
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="col-wrapper">
+                        <p>
+                            <span class="up-caps">K</span>abaret is a unity of performing arts that combine elements of role art, dance art and
+                            artistic art combined by a storyline using audio mixing or simply is a dance that tells the story
+                        </p>
+                        <p>
+                            In cabaret show there are several elements that are integrated into an interesting performing arts. Acting (role) is derived
+                            from the word "to act" which means "acting" acting in the sense he is a combination of body attraction
+                            and spiritual. Other than that, This mixing-audio / music process is basically a process of 'mixing'
+                            the entire track record into a unified whole composition whereby the entire instrument used can
+                            be heard as clear, whole and original as original as possible. Dance is a human gesture that
+                            is completely separated from the elements of space, and time, and energy. And Artistic value
+                            is the value seen in terms of its beauty in the cabaret seen in the background aspect, costumes
+                            and make up of players who have a role. all the elements of theater performing arts are certainly
+                            not forgotten in this cabaret, because cabaret is a performance art that refers to the theater
+                            in its application.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.services -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- #story -->
+
+
+    <div class="grid">
+        <figure class="effect-bubba">
+            <img src="img/gallery/1.jpg" alt="img01">
+            <figcaption>
+                <h2>Acting
+                    <span>Stage</span>
+                </h2>
+                <p>Acting that makes the main element of Kabaret show</p>
+            </figcaption>
+        </figure>
+        <figure class="effect-bubba">
+            <img src="img/gallery/2.jpg" alt="img02">
+            <figcaption>
+                <h2>Character
+                    <span>Depth</span>
+                </h2>
+                <p>the deepening of characters in role art is the key to an actor's success</p>
+            </figcaption>
+        </figure>
+        <figure class="effect-bubba">
+            <img src="img/gallery/3.jpg" alt="img07">
+            <figcaption>
+                <h2>Action
+                    <span>Scene</span>
+                </h2>
+                <p>the action scene is one of the story writer figures that make the story more alive</p>
+            </figcaption>
+        </figure>
+        <figure class="effect-bubba">
+            <img src="img/gallery/4.jpg" alt="img04">
+            <figcaption>
+                <h2>Traditional
+                    <span>Element</span>
+                </h2>
+                <p>Traditional elements can be important in the color of a cabaret bandung</p>
+            </figcaption>
+        </figure>
+        <figure class="effect-bubba">
+            <img src="img/gallery/5.jpg" alt="img14">
+            <figcaption>
+                <h2>Artistic
+                    <span>Element</span>
+                </h2>
+                <p>the artistic element in cabaret is the need for story and story decoration to be more real and fill the story</p>
+            </figcaption>
+        </figure>
+        <figure class="effect-bubba">
+            <img src="img/gallery/6.jpg" alt="img08">
+            <figcaption>
+                <h2>Audio
+                    <span>Mixing</span>
+                </h2>
+                <p>audio mixing becomes very important in cabarets because audio mixing acts as the storyline and the life of
+                    this stage performing arts</p>
+            </figcaption>
+        </figure>
+    </div>
+    <!-- #gallery -->
+
+
+
+    <div id="news" class="light-wrapper">
+        <div class="container inner">
+            <div class="title">
+                <h2 class="section-title text-center">News &amp; Events</h2>
+                <p class="lead main text-center">The activity of the Forum Kabaret Bandung is very varied starting from the internal activities of the Forum
+                    Kabaret Bandung, Kabaret Festival, Kabaret Colossal Performances, joint exercises as well as trainings
+                    to regenerate the Kabaret activists</p>
+            </div>
+
+            <div class="row blog">
+
+                <div class="col-sm-6 left">
+                    <div class="news clearfix">
+                        <img src="img/news/1.jpg" alt="">
+                        <h3>Meja Diatas Panggung</h3>
+                        <p>an event made to watch a documentary film cabaret bandung at ISBI Bandung</p>
+                        <a href="https://www.instagram.com/p/BcAQNPWAeUF/?taken-by=kabaretbandung" target="_blank" class="fold-link">Read More</a>
+                    </div>
+                    <div class="news clearfix">
+                        <img src="img/news/2.jpg" alt="">
+                        <h3>LAW ART FEST</h3>
+                        <p>Kabaret Festival at UNISBA with legal theme</p>
+                        <a href="https://www.instagram.com/p/Bb8XcjPgyrq/?taken-by=kabaretbandung" target="_blank" class="fold-link">Read More</a>
+                    </div>
+                    <div class="news clearfix">
+                        <img src="img/news/3.jpg" alt="">
+                        <h3>Latgab LAGI</h3>
+                        <p>joint exercise held Forum Kabaret Bandung at Teater Terbuka Dago Tea House Bandung</p>
+                        <a href="https://www.instagram.com/p/BbepVJwgtn3/?taken-by=kabaretbandung" target="_blank" class="fold-link">Read More</a>
+                    </div>
+                </div>
+                <!-- col-sm-6  -->
+
+                <div class="col-sm-6 right">
+                    <div class="news clearfix">
+                        <img src="img/news/4.jpg" alt="">
+                        <h3>MY GREATEST HOPE</h3>
+                        <p>Activities cabaret show held by EVO entertainment in Karawang</p>
+                        <a href="https://www.instagram.com/evoentertainment/" target="_blank" class="fold-link">Read More</a>
+                    </div>
+                    <div class="news clearfix">
+                        <img src="img/news/5.jpg" alt="">
+                        <h3>Education For Evolution</h3>
+                        <p>the cabaret festival held by SMK ICB Cinta Niaga in Teater Tertutup Dago Tea House</p>
+                        <a href="https://www.instagram.com/p/BbAp3sUAL5o/?taken-by=kabaretbandung" target="_blank" class="fold-link">Read More</a>
+                    </div>
+                    <div class="news clearfix">
+                        <img src="img/news/6.jpg" alt="">
+                        <h3>IC Fest 2017</h3>
+                        <p>cabaret festival held by Cabanas Teather at ITENAS</p>
+                        <a href="https://www.instagram.com/p/BY-B0K5Bwk8/?taken-by=icfest_" target="_blank" class="fold-link">Read More</a>
+                    </div>
+                </div>
+                <!-- col-sm-6  -->
+
+            </div>
+            <!-- /.blog -->
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- #news -->
+
+    <!--Impress section-->
+    <section id="awards" class="impress roomy-100">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="main_impress text-center">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <h2>Awards</h2>
+                        <p>The awards achieved by the Forum Kabaret Bandung make the kabaret increasingly exist in the community,
+                            some awards have been obtained from the record MURI and cultural awards by the City Of Bandung</p>
+                    </div>
+                </div>
+            </div>
+            <!--End off row -->
+        </div>
+        <!--End off container -->
+    </section>
+    <!-- End off Impress section-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container gallery-container">
+        <div class="tz-gallery">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <a class="lightbox" href="img/lightbox/fkb.jpg">
+                        <img src="img/lightbox/fkb.jpg" alt="Pemilihan Ketua FKB">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/lightbox/juara.jpg">
+                        <img src="img/lightbox/juara.jpg" alt="Juara">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/lightbox/show.jpg">
+                        <img src="img/lightbox/show.jpg" alt="Award">
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-8">
+                    <a class="lightbox" href="img/lightbox/award.jpg">
+                        <img src="img/lightbox/award.jpg" alt="Award">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/lightbox/penghargaan.jpg">
+                        <img src="img/lightbox/penghargaan.jpg" alt="Award">
+                    </a>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <a class="lightbox" href="img/lightbox/koran.jpg">
+                        <img src="img/lightbox/koran.jpg" alt="Koran">
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <footer id="footer" class="dark-wrapper">
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm-4">
+                    &copy; Copyright Pilates 2014
+                    <br/>Theme By
+                    <a class="themeBy" href="http://www.Themewagon.com">ThemeWagon</a>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li>
+                            <a href="#">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#">Lorem Ipsum</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-4">
+                    <div class="social-bar">
+                        <a href="#" data-toggle="tooltip" class="ion-social-twitter tooltipped" title="Twitter"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-youtube tooltipped" title="Youtube"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-vimeo tooltipped" title="Vimeo"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-facebook tooltipped" title="Facebook"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-pinterest tooltipped" title="Pinterest"></a>
+                        <a href="#" data-toggle="tooltip" class="ion-social-googleplus tooltipped" title="Google-Plus"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+    <script src="js/jquery.actual.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
