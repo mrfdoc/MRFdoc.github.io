@@ -51,14 +51,6 @@ $(document).ready(function() {
 		setHomeBannerHeight();
 		centerHomeBannerText();
 	});
-	
-	function scroll() {
-		if ($(window).scrollTop() == 0 ) {
-			//$('.nav > li').removeClass('active');
-			console.log($(window).scrollTop());
-		} else {
-			
-		}
 	}
 	document.onscroll = scroll;
 	var $scrollDownArrow = $('#scrollDownArrow');

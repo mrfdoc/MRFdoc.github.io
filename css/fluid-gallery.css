@@ -65,7 +65,7 @@ body {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background-color: rgba(192, 55, 255, 0.7);
+    background-color: rgba(143, 22, 199, 0.7);
     content: '';
     transition: 0.4s;
 }
