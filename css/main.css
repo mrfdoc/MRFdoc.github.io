@@ -4,6 +4,7 @@
 body {
     -webkit-font-smoothing:antialiased;
     -webkit-text-size-adjust:100%;
+    background-color: white;
 }
 img {
     max-height:100%;
@@ -64,7 +65,7 @@ img {
     margin: 0;
     padding: 0;
     line-height: 70%;
-    margin-top: 300px;
+    margin-top: 0px;
 }
 #header .subtitle h4 {
     font-size:38px;
@@ -1545,6 +1546,21 @@ History
       margin-bottom: 0; }
   
 
+/* ==========================================================================
+Team
+========================================================================== */
+.team {
+    background-image: url(../img/pattern.jpg);
+    background-attachment: fixed;
+}
+
+.team h1 {
+    font-family: 'Pacifico', Serif;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
 
 /* ==========================================================================
  footer 
