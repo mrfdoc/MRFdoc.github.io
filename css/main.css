@@ -1455,7 +1455,7 @@ Impress Awards section style
 
 
 #map {
-	height: 250px;
+	height: 300px;
 	width: 100%;
    }
 
@@ -1591,7 +1591,8 @@ Brand Section style
     background: #141414;
     color:white;
     font-size: 15px;
-    height: 40px;
+    height: 80px;
+    width: 100%;
 }
 .dark-wrapper p {
     padding-top: 10px;
