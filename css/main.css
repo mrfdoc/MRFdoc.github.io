@@ -1643,11 +1643,16 @@ footer ul li a {
     #header {
         width: 100%;
     }
+    #menu {
+        width: 100%;
+    }
 }
 
 
 @media (max-width: 991px){
-
+    #menu {
+        width: 100%;
+    }
     h1.giant-heading {
         font-size: 82px;
     }
@@ -1666,6 +1671,9 @@ footer ul li a {
 @media (max-width:767px) {
     #header .banner h1 {
         font-size:60px;
+    }
+    #menu {
+        width: 100%;
     }
     .logo {
         width:300%;
