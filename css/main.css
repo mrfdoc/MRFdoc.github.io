@@ -1562,6 +1562,28 @@ Team
     padding-top: 50px;
 }
 
+
+/*
+Brand Section style
+=====================*/
+.main_cbrand{
+    overflow: hidden;
+    width:100%;
+}
+.cbrand_item {
+    height: 70px;
+    overflow: hidden;
+}
+.cbrand_item img{
+    width:70%;
+    /*margin: 10px;*/
+}
+.cbrand_item img.img_apple{
+    width:25%;
+    padding: 10px;
+}
+
+
 /* ==========================================================================
  footer 
 ========================================================================== */
