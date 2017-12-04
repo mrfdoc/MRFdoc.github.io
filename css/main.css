@@ -153,8 +153,8 @@ Kabaret Welcome section style
 ========================================================================== */
 
 .kabaret-wrapper{
-    background: rgb(176, 177, 176);
-    color: rgb(89, 16, 184);
+    background: rgb(124, 126, 124);
+    color: rgb(255, 255, 255);
 }
 h1.giant-heading {
     font-size: 110px; 
@@ -1681,7 +1681,7 @@ Brand Section style
         text-align: left;
         margin-top: 30px;
     }
-
+    
     h1.giant-heading {
         font-size: 65px;
         text-align: center;
